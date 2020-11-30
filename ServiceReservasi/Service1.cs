@@ -15,6 +15,7 @@ namespace ServiceReservasi
         SqlConnection connection;
         SqlCommand com; //untuk mengkoneksikan database ke visual studio
 
+
         public string deletePemesanan(string IDPemesanan)
         {
             string a = "gagal";
